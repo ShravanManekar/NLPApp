@@ -1,114 +1,103 @@
-🧠 NLPApp – Offline NLP Desktop Application
+# 🧠 NLPApp – Offline Natural Language Processing Desktop Application
 
-NLPApp is a Python-based desktop application built using Tkinter, Hugging Face Transformers, and spaCy.
-It performs Natural Language Processing tasks completely offline, without relying on paid or rate-limited APIs.
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) 
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-brightgreen) 
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-orange) 
+![spaCy](https://img.shields.io/badge/spaCy-NLP-red) 
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project was built to understand real-world NLP workflows, GUI integration, and model inference in a production-like setup.
+**NLPApp** is a Python desktop application for performing Natural Language Processing (NLP) tasks **offline**, without requiring paid APIs or internet access. Built with **Tkinter**, **Hugging Face Transformers**, and **spaCy**, NLPApp demonstrates a production-ready NLP workflow with GUI integration.
 
-✨ Features
+---
 
-✅ Sentiment Analysis (Positive / Negative with confidence score)
+## 🌟 Features
 
-😊 Emotion Detection (anger, joy, sadness, fear, surprise, etc.)
+- **Sentiment Analysis** – Classifies text as Positive / Negative with confidence score  
+- **Emotion Detection** – Detects emotions like anger, joy, sadness, fear, surprise, etc.  
+- **Named Entity Recognition (NER)** – Extracts entities such as Person, Organization, Location, Date  
+- **Interactive GUI** – Simple, user-friendly **Tkinter interface**  
+- **Offline Execution** – Fully functional without internet or API keys after setup  
 
-🏷 Named Entity Recognition (NER)
+---
 
-Detects Person, Organization, Location, Date, etc.
+## 🛠 Tech Stack
 
-🖥 Simple & interactive Tkinter GUI
+- **Python 3**  
+- **Tkinter** – Desktop GUI  
+- **Hugging Face Transformers**  
+  - `distilbert-base-uncased-finetuned-sst-2-english` (Sentiment Analysis)  
+  - `emotion-english-distilroberta-base` (Emotion Detection)  
+- **spaCy** – Named Entity Recognition  
+- **Git & GitHub** – Version control  
 
-🔒 Offline execution (No API keys, no internet dependency after setup)
+---
 
-🛠 Tech Stack
+## 📂 Project Structure
 
-Python 3
-
-Tkinter – Desktop GUI
-
-Hugging Face Transformers
-
-distilbert-base-uncased-finetuned-sst-2-english (Sentiment)
-
-emotion-english-distilroberta-base (Emotion Detection)
-
-spaCy – Named Entity Recognition
-
-Git & GitHub – Version control
-
-📂 Project Structure
 NLPApp/
 │
-├── app.py          # Main Tkinter application
-├── myapi.py        # NLP logic (Sentiment, Emotion, NER)
-├── mydb.py         # User authentication logic
-├── db.json         # Local user database
-├── resourse/       # App resources (icons/images)
+├── app.py # Main Tkinter application
+├── myapi.py # NLP logic (Sentiment, Emotion, NER)
+├── mydb.py # User authentication
+├── db.json # Local user database
+├── resourse/ # Icons, images, and other assets
 ├── README.md
+├── requirements.txt
 ├── .gitignore
 
-🚀 Installation & Setup
-1️⃣ Clone the repository
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+```bash
 git clone https://github.com/ShravanManekar/NLPApp.git
 cd NLPApp
 
-2️⃣ Create and activate virtual environment
+2. **Create & activate a virtual environment**
 python -m venv .venv
-.venv\Scripts\activate   # Windows
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
 
-3️⃣ Install dependencies
+3. **Install dependencies**
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-▶ How to Run
+4. **Run the application**
 python app.py
 
-
-The GUI window will open on your desktop.
-
 🧪 Example Outputs
-🔹 Sentiment Analysis
 
-Input:
+Sentiment Analysis
 
-I love this application!
-
-
-Output:
-
+Input: I love this application!
+Output: 
 Sentiment: POSITIVE
 Confidence: 0.99
 
-🔹 Emotion Detection
 
-Input:
+Emotion Detection
 
-I am very angry today
-
-
+Input: I am very angry today
 Output:
-
 anger: 0.87
 sadness: 0.05
 joy: 0.03
 
-🔹 Named Entity Recognition (NER)
 
-Input:
+Named Entity Recognition (NER)
 
-Apple was founded by Steve Jobs in California.
-
-
+Input: Apple was founded by Steve Jobs in California.
 Output:
-
 Apple → ORG
 Steve Jobs → PERSON
 California → GPE
 
-🎯 Why This Project?
+🎯 Benefits
 
-Avoids paid NLP APIs and rate limits
+Demonstrates offline NLP model usage
 
-Demonstrates offline ML model usage
+Avoids paid APIs and rate limits
 
 Combines AI + GUI development
 
@@ -116,20 +105,20 @@ Ideal for internships, portfolios, and resumes
 
 📌 Future Improvements
 
- Add file-based text input
+Add file-based text input (TXT, CSV, PDF)
 
- Export results as PDF/CSV
+Export results as PDF/CSV
 
- Dark mode UI
+Implement dark mode UI
 
- Model performance comparison
+Compare model performance
 
 👨‍💻 Author
 
 Shravan Manekar
-📌 Computer Engineering Student
-📌 Interested in Data Science, NLP & AI
 
-🔗 GitHub: https://github.com/ShravanManekar
+Computer Engineering Student
 
-⭐ If you like this project, don’t forget to star the repository!
+Interests: Data Science, NLP, AI
+
+GitHub: https://github.com/ShravanManekar
