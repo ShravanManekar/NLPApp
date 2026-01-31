@@ -45,7 +45,7 @@
 - ├── requirements.txt
 - ├── .gitignore
 
-
+---
 
 
 ## 🚀 Installation & Setup
@@ -54,6 +54,7 @@
 ```bash
 git clone https://github.com/ShravanManekar/NLPApp.git
 cd NLPApp
+---
 
 ### 2️⃣ **Create & activate a virtual environment**
 python -m venv .venv
@@ -61,13 +62,16 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS/Linux
 source .venv/bin/activate
+---
 
 ###3️⃣ **Install dependencies**
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+---
 
 ###4️⃣** Run the application**
 python app.py
+---
 
 ##🌟 Features
 
@@ -81,6 +85,8 @@ python app.py
 
 -Offline Execution – Works without internet or API keys
 
+---
+
 ##🎯 Benefits
 
 -Demonstrates offline NLP model usage
@@ -88,6 +94,8 @@ python app.py
 -Avoids paid APIs and rate limits
 
 -Combines AI + GUI development
+
+---
 
 
 
@@ -98,3 +106,4 @@ Shravan Manekar
 Interests: Data Science, NLP, AI
 
 GitHub: https://github.com/ShravanManekar
+---
