@@ -50,23 +50,23 @@
 
 ## 🚀 Installation & Setup
 
-## 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/ShravanManekar/NLPApp.git
 cd NLPApp
 
-## 2️⃣ Create & activate a virtual environment
+### 2️⃣ **Create & activate a virtual environment**
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
 # macOS/Linux
 source .venv/bin/activate
 
-##3️⃣ Install dependencies
+###3️⃣ **Install dependencies**
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-##4️⃣ Run the application
+###4️⃣** Run the application**
 python app.py
 
 ##🌟 Features
