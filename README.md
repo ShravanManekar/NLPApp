@@ -45,81 +45,71 @@
 - ├── requirements.txt
 - ├── .gitignore
 
+
+---
+
 ## 🚀 Installation & Setup
 
-1. **Clone the repository**
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/ShravanManekar/NLPApp.git
 cd NLPApp
 
-2. **Create & activate a virtual environment**
+### 2️⃣ Create & activate a virtual environment
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
 # macOS/Linux
 source .venv/bin/activate
 
-3. **Install dependencies**
+###3️⃣ Install dependencies
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-4. **Run the application**
+###4️⃣ Run the application
 python app.py
 
+##🌟 Features
 
-🧪 Example Outputs
+-Sentiment Analysis – Positive / Negative classification with confidence score
 
-Sentiment Analysis
+-Emotion Detection – anger, joy, sadness, fear, surprise, etc.
 
-Input: I love this application!
-Output: 
-Sentiment: POSITIVE
-Confidence: 0.99
+-Named Entity Recognition (NER) – Extracts Person, Organization, Location, Date
 
+-Interactive GUI – Simple and user-friendly
 
-Emotion Detection
-
-Input: I am very angry today
-Output:
-anger: 0.87
-sadness: 0.05
-joy: 0.03
-
-
-Named Entity Recognition (NER)
-
-Input: Apple was founded by Steve Jobs in California.
-Output:
-Apple → ORG
-Steve Jobs → PERSON
-California → GPE
+-Offline Execution – Works without internet or API keys
 
 ##🎯 Benefits
 
-Demonstrates offline NLP model usage
+-Demonstrates offline NLP model usage
 
-Avoids paid APIs and rate limits
+-Avoids paid APIs and rate limits
 
-Combines AI + GUI development
+-Combines AI + GUI development
 
-Ideal for internships, portfolios, and resumes
-
-##📌 Future Improvements
-
-Add file-based text input (TXT, CSV, PDF)
-
-Export results as PDF/CSV
-
-Implement dark mode UI
-
-Compare model performance
+-Ideal for internships, portfolios, and resumes
 
 ##👨‍💻 Author
 
 Shravan Manekar
 
-Computer Engineering Student
-
 Interests: Data Science, NLP, AI
 
 GitHub: https://github.com/ShravanManekar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
