@@ -34,16 +34,16 @@
 
 ## 📂 Project Structure
 
-NLPApp/
-│
-├── app.py # Main Tkinter application
-├── myapi.py # NLP logic (Sentiment, Emotion, NER)
-├── mydb.py # User authentication
-├── db.json # Local user database
-├── resourse/ # Icons, images, and other assets
-├── README.md
-├── requirements.txt
-├── .gitignore
+- NLPApp/
+- │
+- ├── app.py # Main Tkinter application
+- ├── myapi.py # NLP logic (Sentiment, Emotion, NER)
+- ├── mydb.py # User authentication
+- ├── db.json # Local user database
+- ├── resourse/ # Icons, images, and other assets
+- ├── README.md
+- ├── requirements.txt
+- ├── .gitignore
 
 ## 🚀 Installation & Setup
 
@@ -65,6 +65,7 @@ python -m spacy download en_core_web_sm
 
 4. **Run the application**
 python app.py
+
 
 🧪 Example Outputs
 
@@ -93,7 +94,7 @@ Apple → ORG
 Steve Jobs → PERSON
 California → GPE
 
-🎯 Benefits
+##🎯 Benefits
 
 Demonstrates offline NLP model usage
 
@@ -103,7 +104,7 @@ Combines AI + GUI development
 
 Ideal for internships, portfolios, and resumes
 
-📌 Future Improvements
+##📌 Future Improvements
 
 Add file-based text input (TXT, CSV, PDF)
 
@@ -113,7 +114,7 @@ Implement dark mode UI
 
 Compare model performance
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Shravan Manekar
 
