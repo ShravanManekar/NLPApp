@@ -46,7 +46,7 @@
 - ├── .gitignore
 
 
----
+
 
 ## 🚀 Installation & Setup
 
@@ -89,7 +89,7 @@ python app.py
 
 -Combines AI + GUI development
 
--Ideal for internships, portfolios, and resumes
+
 
 ##👨‍💻 Author
 
